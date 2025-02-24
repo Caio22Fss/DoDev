@@ -8,7 +8,7 @@ while (confirmar != "s") {
     let salarioAtual = parseFloat(prompt("Digite seu salário atual:"))
     console.log('Nome:' + nome + ', Idade:' + idade + ', Salario ataual:' + salarioAtual)
     confirmar = prompt("As informações estão corretas? (s/n)")
-}
+
 
 //previsão salárial
 
@@ -21,4 +21,4 @@ for (let ano = 1; ano<= 10; ano++) {
 
     console.log((2025 + ano) + "= R$" + salarioAtual)
 }
-
+}
